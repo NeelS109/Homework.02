@@ -1,3 +1,4 @@
+/* Index.html */
 #Bio {
   background-color: lightsteelblue;
 }
@@ -10,6 +11,15 @@ img {
   height: 300px; width: 300px;
 }
 
+/* Contact.html */
 #contactMe {
     margin-left: 30px;
+}
+
+
+
+
+/* Portfolio.html */
+#myLinks {
+    background-color: lightsteelblue;
 }
