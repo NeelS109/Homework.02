@@ -1,9 +1,13 @@
-#bio {
+#Bio {
   background-color: lightsteelblue;
 }
 
+.aboutMe {
+    margin-left: 30px;
+}
+
 img {
-  height: 100px; width: 100px;
+  height: 300px; width: 300px;
 }
 
 #contactMe {
