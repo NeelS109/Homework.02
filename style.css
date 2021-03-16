@@ -60,3 +60,42 @@ body {
   background-color: rgba(255, 255, 255, 0.418);
   padding: 10px;
 }
+
+.display-4 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.jumbotron {
+  background-color: lightsteelblue;
+  padding-bottom: 10px;
+}
+
+.projects {
+  margin-bottom: 125px;
+  background-color: lightsteelblue;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.carousel-inner img {
+  margin: auto;
+  object-fit: cover;
+}
+
+.carousel .carousel-item {
+  height: 450px;
+}
+
+.carodiv {
+  margin-top: 50px;
+}
+
+img {
+  max-width: 120%;
+  height: auto;
+  width: auto\9;
+}
