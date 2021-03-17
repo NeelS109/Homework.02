@@ -6,9 +6,10 @@
   <title>Contact</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
 
-<body id= "">
+<body id= "contact">
 
   <!-- Site Header -->
   <header>
@@ -36,7 +37,7 @@
       </nav>
   </header>
 
-  <section id="contactMe" class="w-50" > 
+  <section id="contactMe" class="w-50 col-sm-3" > 
       <h1><strong>Contact Me</strong></h1>
       <div class="mb-3">
         <label for="formGroupExampleInput" class="form-label">Name</label>
@@ -50,11 +51,19 @@
         <label for="floatingTextarea2">Message</label>
         <textarea class="form-control" placeholder="Leave a comment here" rows="10" id="floatingTextarea2"></textarea>
       </div>
-      <div class="col-12">
+      <div class="col-2">
         <button type="submit" class="btn btn-primary">Submit</button>
       </div>
-  </section>
-
+    </section>
+  
+    <ul class="col-sm-3 list-group">
+      <li class="list-group-item list-group-item-action list-group-item-secondary"> <a
+          href="https://github.com/NeelS109"><i class="fab fa-github-square"></i> Github</a> </li>
+      <li class="list-group-item list-group-item-action list-group-item-success"><a
+          href="https://www.linkedin.com/in/neel-sheth-bb160a32/"> <i class="fab fa-linkedin"></i> LinkedIn</a></li>
+      <li class="list-group-item list-group-item-action list-group-item-light">
+        <strong>Email:</strong> <a href="neel.sheth109@gmail.com">neel.sheth109@gmail.com</a></li>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 </html>
